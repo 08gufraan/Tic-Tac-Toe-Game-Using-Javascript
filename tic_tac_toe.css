@@ -1,0 +1,45 @@
+html{
+	background-image: linear-gradient(135deg,#d2bbcd,#71b57c,#96e8de);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#main{
+	width: 80%;
+	margin: auto;
+	border: 2px solid black;
+	box-shadow: 3px 3px black;
+}
+
+button{
+	color: white;
+	font-style: italic;
+	font-weight: bolder;
+	margin: 5px 0px;
+	background-color:#45567d ;
+	border: 1px solid black;
+	border-radius: 9px;
+	width: 33%;
+	height: 50px;
+}
+button:hover{
+	background-color:#be3144 ;
+	cursor: pointer;
+}
+#result{
+	padding-top: 20px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	height: 40px;
+	text-align: center;
+	border-radius: 12px;
+}
+
+#restart{
+	width: 100%;
+}
+@media only screen and (max-width: 1012px){
+	button{
+		width: 30%;
+	}
+}
